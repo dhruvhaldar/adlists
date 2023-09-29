@@ -1,0 +1,31 @@
+import re
+
+def remove_third_party_filters(text_file):
+  """Removes `||` and `$third-party` from the text file.
+
+  Args:
+    text_file: The path to the text file.
+
+  Returns:
+    A string containing the text of the text file with `||` and `$third-party` removed.
+  """
+
+  with open(text_file, "r") as f:
+    text = f.read()
+
+  # Remove `||`.
+  text = re.sub(r"\|", "", text)
+
+  # Remove `$third-party`.
+  text = re.sub(r"\$third-party", "", text)
+
+  return text
+
+
+# Read the text file.
+text_file = "indianlist.txt"
+text = remove_third_party_filters(text_file)
+
+# Write the text back to the text file.
+with open(text_file, "w") as f:
+  f.write(text)
