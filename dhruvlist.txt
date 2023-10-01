@@ -67,6 +67,7 @@ events.reddit.com
 events.redditmedia.com
 ads.youtube.com
 ads-api.tiktok.com
+business-api.tiktok.com
 analytics-sg.tiktok.com
 log.byteoversea.com
 ads.yahoo.com
@@ -95,6 +96,3 @@ sdkconfig.ad.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
 globalapi.ad.xiaomi.com
 tracking.rus.miui.com
-
-
-
