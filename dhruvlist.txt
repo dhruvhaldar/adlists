@@ -70,8 +70,31 @@ ads-api.tiktok.com
 analytics-sg.tiktok.com
 log.byteoversea.com
 ads.yahoo.com
-
-
+analytics.yahoo.com
+geo.yahoo.com
+udc.yahoo.com
+udcm.yahoo.com
+analytics.query.yahoo.com
+log.fc.yahoo.com
+gemini.yahoo.com
+adfstat.yandex.ru
+advertising.yandex.ru
+offerwall.yandex.net
+auction.unityads.unity3d.com
+webview.unityads.unity3d.com
+config.unityads.unity3d.com
+iot-eu-logser.realme.com
+iot-logser.realme.com
+bdapi-ads.realmemobile.com
+bdapi-in-ads.realmemobile.com
+adx.ads.oppomobile.com
+api.ad.xiaomi.com
+data.mistat.xiaomi.com
+data.mistat.india.xiaomi.com
+sdkconfig.ad.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+globalapi.ad.xiaomi.com
+tracking.rus.miui.com
 
 
 
